@@ -1,0 +1,7 @@
+<view class="container">
+<view class='list'>
+  <block wx:for="{{detailList}}" wx:key="index">
+    <image class='pic' src='{{item.Cover}}' mode="widthFix"></image>
+  </block>
+</view>
+</view>
